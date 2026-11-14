@@ -1,0 +1,7 @@
+:root { color-scheme: light dark; --fg: #1b1f24; --bg: #ffffff; --accent: #14307a; }
+@media (prefers-color-scheme: dark) { :root { --fg: #e6e8eb; --bg: #14171a; --accent: #ffa06e; } }
+body { margin: 0 auto; max-width: 42rem; padding: 1.5rem 1rem 3rem; font: 1rem/1.6 system-ui, sans-serif; color: var(--fg); background: var(--bg); }
+a { color: var(--accent); }
+h1, h2 { line-height: 1.25; }
+nav a { margin-right: 1rem; }
+footer { margin-top: 2.5rem; font-size: .875rem; opacity: .75; }
